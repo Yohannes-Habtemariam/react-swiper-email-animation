@@ -1,0 +1,28 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --header-bg-color: #9FAFDF;
+  --body-bg-color: #F5F5F5;
+  --footer-bg-color: #B0C4DE;
+  --blogs-bg-color: #F5FFFA;
+
+  --btn-bg-color: #87CEFA;
+  --btn-hover: #9FAFDF;
+  --btn-hover-font-color: #B22222;
+  --color-font: #000000;
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 95%;
+
+  --transition: all 0.4s ease;
+}
