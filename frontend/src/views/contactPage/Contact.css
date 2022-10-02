@@ -117,7 +117,7 @@
   }
   
   
-  /* Medium screen styling, such as Tablet */
+  /* Tablet */
   
   @media screen and (max-width: 1024px) {
     .contact-container{
@@ -126,7 +126,7 @@
     } 
   }
   
-  /* Small screen styling, such as smart phones*/
+  /* smart phones*/
   
   @media screen and (max-width: 760px){
     .contact-page-container {

@@ -49,3 +49,36 @@
     opacity: 0;
   }
 }
+
+/* Tablet */
+  
+@media screen and (max-width: 1024px) {
+  .home-page-container {
+    height: calc(100vh - 4rem);
+    border-radius: 0.5rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: var(--footer-bg-color);
+  }
+
+  .myswiper {
+    width: 100%;
+  }
+}
+
+/* smart phones*/
+
+@media screen and (max-width: 760px){
+  .home-page-container {
+    height: calc(100vh - 4rem);
+    border-radius: 0.5rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: var(--footer-bg-color);
+  }
+  .myswiper {
+    width: 100%;
+  }
+}
