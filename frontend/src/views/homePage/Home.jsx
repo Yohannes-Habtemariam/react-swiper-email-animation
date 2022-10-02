@@ -29,7 +29,7 @@ const Home = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 50,
-      strings: ["How to Apply Swiper and EmailJS Connected to a Form"],
+      strings: ["Swiper and EmailJS Connected to Form"],
     });
   }, []);
 
