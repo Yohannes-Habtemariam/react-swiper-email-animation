@@ -21,7 +21,7 @@ const Contact = () => {
 
 
   return (
-    <main>
+    <main className='contact-page-container'>
         <section className="social-media-form-container">
         <h2 className='contact-h2'> Contact Me </h2>
         <div className='contact-container'>
