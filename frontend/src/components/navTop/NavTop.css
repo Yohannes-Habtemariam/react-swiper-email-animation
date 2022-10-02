@@ -3,17 +3,18 @@
     top: 0;
     right: 0;
     height: 3rem;
-    background-color: var(--header-bg-colo);
-    background-color: blue;
+    background-color: var(--header-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: end;
     position: relative;
 }
 
 .header-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0 2rem;
-    background-color: var(--header-bg-colo);
+    gap: 2rem;
+    margin-right: 2rem;
 }
 
 .header-nav-ul {
@@ -21,4 +22,16 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+li a {
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 0.3rem 0.5rem;
+}
+
+li a:hover {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-hover-font-color);
+    border-radius: 0.2rem;
 }
